@@ -1,12 +1,139 @@
+<div align="center">
 
-# 💻 Tech Stack:
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=deekshithg04&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=deekshithg04&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=deekshithg04&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<!-- CYBERPUNK HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,25:0f172a,50:1e293b,75:0f766e,100:22c55e&height=220&section=header&text=Deekshith%20G&fontSize=65&fontColor=00ffcc&fontAlignY=38&desc=Cybersecurity%20%7C%20Backend%20%7C%20Automation&descAlignY=58&descSize=18&animation=fadeIn"/>
+
+<!-- TYPING -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Breaking+Systems+to+Secure+Them+%F0%9F%94%90;Cybersecurity+%7C+Ethical+Hacking+%7C+Automation;Python+%7C+MySQL+%7C+Kali+Linux;Building+Real-World+Security+Projects)](https://git.io/typing-svg)
+
+<br/>
+
+![Role](https://img.shields.io/badge/Role-Cybersecurity%20Enthusiast-22c55e?style=for-the-badge&labelColor=020617)
+![Focus](https://img.shields.io/badge/Focus-Ethical%20Hacking%20%7C%20Backend-0f766e?style=for-the-badge&labelColor=020617)
+![Location](https://img.shields.io/badge/📍-Bangalore%2C%20India-1e293b?style=for-the-badge&labelColor=020617)
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=deekshithg04&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+# 🧠 About Me
+
+👋 Hey, I'm **Deekshith G**  
+
+🎓 Pursuing **B.E. in Information Science (CGPA: 8.88)**  
+💻 Passionate about **Cybersecurity, Backend Systems & Automation**
+
+🔐 I love understanding how systems break — and building them stronger.
+
+⚡ I focus on:
+- Ethical hacking & vulnerability analysis  
+- Backend system development  
+- Automation tools & real-world problem solving  
+- Secure system design  
+
+> *"Security is not a product, it's a mindset."*
+
+---
+
+# ⚔️ Tech Stack
+
+<div align="center">
+
+### 🧑‍💻 Languages
+![Python](https://img.shields.io/badge/Python-020617?style=for-the-badge&logo=python&logoColor=22c55e)
+![C](https://img.shields.io/badge/C-020617?style=for-the-badge&logo=c&logoColor=22c55e)
+![Java](https://img.shields.io/badge/Java-020617?style=for-the-badge&logo=openjdk&logoColor=22c55e)
+
+### 🗄️ Databases
+![MySQL](https://img.shields.io/badge/MySQL-020617?style=for-the-badge&logo=mysql&logoColor=22c55e)
+![Oracle](https://img.shields.io/badge/Oracle-020617?style=for-the-badge&logo=oracle&logoColor=22c55e)
+
+### 🛠️ Tools & Platforms
+![Git](https://img.shields.io/badge/Git-020617?style=for-the-badge&logo=git&logoColor=22c55e)
+![VS Code](https://img.shields.io/badge/VS%20Code-020617?style=for-the-badge&logo=visualstudiocode&logoColor=22c55e)
+![Excel](https://img.shields.io/badge/Excel-020617?style=for-the-badge&logo=microsoftexcel&logoColor=22c55e)
+
+### 💻 Operating Systems
+![Windows](https://img.shields.io/badge/Windows-020617?style=for-the-badge&logo=windows&logoColor=22c55e)
+![macOS](https://img.shields.io/badge/macOS-020617?style=for-the-badge&logo=apple&logoColor=22c55e)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-020617?style=for-the-badge&logo=ubuntu&logoColor=22c55e)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-020617?style=for-the-badge&logo=kalilinux&logoColor=22c55e)
+
+</div>
+
+---
+
+# 🧪 Projects
+
+## 🔐 NFC-Based Student Fee Management System
+> Secure fee tracking system using NFC concept
+
+- Built using **Python + MySQL**
+- Admin features: enroll students, update payments, manage logs  
+- Student features: check dues, view receipts, history tracking  
+- Implemented **receipt generation system**
+
+---
+
+## 📈 AI-Based Stock Trend Analyzer
+> Predict stock trends using deep learning
+
+- Built using **LSTM (Keras)**  
+- Integrated **Yahoo Finance API**  
+- Applied **MinMaxScaler & time-series modeling**  
+- Generated trend predictions & insights  
+
+---
+
+# 🛡️ Cybersecurity Journey
+
+🔍 Exploring:
+- Kali Linux tools  
+- Vulnerability scanning  
+- Ethical hacking practices  
+- Network & system security  
+
+⚡ Goal: Become a **Cybersecurity Expert & Penetration Tester**
+
+---
+
+# 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=deekshithg04&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=22c55e&icon_color=22c55e"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshithg04&theme=tokyonight&hide_border=true&background=020617&ring=22c55e&fire=22c55e&currStreakLabel=22c55e"/>
+
+</div>
+
+---
+
+# 🎯 Current Focus
+
+- 🔐 Cybersecurity & Ethical Hacking  
+- 🧠 Machine Learning Applications  
+- ⚙️ Automation Tools  
+- 🌐 Real-world Projects  
+
+---
+
+# 📬 Connect With Me
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-020617?style=for-the-badge&logo=github&logoColor=22c55e)](https://github.com/deekshithg04)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-020617?style=for-the-badge&logo=linkedin&logoColor=22c55e)](https://linkedin.com/in/deekshith-g-a17660329)
+[![Email](https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=22c55e)](mailto:deekshith953519@gmail.com)
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f172a,100:000000&height=120&section=footer"/>
+
+**⚡ "Hack the system. Secure the future." ⚡**
+
+</div>
