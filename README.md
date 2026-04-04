@@ -1,20 +1,34 @@
+l<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&width=1000&height=120&lines=root%40deekshith:~%24+boot;initializing+terminal...;loading+identity...;access+granted" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=1000&height=120&lines=DEEKSHITH+G;CYBERSECURITY+%7C+PENTESTING;OFFENSIVE+SECURITY+MINDSET" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+whoami;Cybersecurity+Enthusiast;Future+Penetration+Tester;Bangalore,+India" />
+
+</div>
+
+---
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+boot;initializing+system...;loading+modules...;access+granted+✔" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+cat+intro.txt;I+analyze+systems+by+breaking+them.;I+focus+on+real-world+security+problems.;Tools,+exploitation,+and+defense.;Learning+never+stops..." />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=700&color=00C2FF&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+whoami;Deekshith+G;Cybersecurity+Enthusiast;Future+Penetration+Tester" />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=700&color=A78BFA&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+load+skills;penetration+testing;web+security;network+analysis;vulnerability+assessment" />
+---
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=700&color=38BDF8&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+run+tools;burpsuite;wireshark;metasploit;sqlmap;nmap;kali+linux" />
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=700&color=22C55E&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+execute+projects;nfc+secure+fee+system;ai+stock+analyzer;system+analysis+complete" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=FACC15&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+load+toolkit;wireshark+burpsuite+metasploit+sqlmap;nmap+kali+linux+networking;packet+analysis+%7C+web+testing+%7C+exploitation" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=700&color=FACC15&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+mission;become+pentester;master+ethical+hacking;build+secure+systems" />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=700&color=F87171&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+status;learning...;testing...;exploiting...;improving..." />
+---
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+connect;github.com%2Fdeekshithg04;linkedin.com%2Fin%2Fdeekshith-g-a17660329;deekshith953519%40gmail.com" />
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F87171&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+mission;become+penetration+tester;master+ethical+hacking;build+secure+systems" />
 
 </div>
 
@@ -32,6 +46,6 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+echo+%22Hack+the+system%22;root%40deekshith:~%24+echo+%22Secure+the+future%22" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+connect;github.com%2Fdeekshithg04;linkedin.com%2Fin%2Fdeekshith-g-a17660329;deekshith953519%40gmail.com" />
 
 </div>
