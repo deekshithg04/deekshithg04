@@ -1,14 +1,14 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,25:001a00,50:003300,75:00ff00,100:00ffcc&height=230&section=header&text=DEEKSHITH%20G&fontSize=65&fontColor=00ff00&fontAlignY=40&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Pentesting&descAlignY=60&descSize=18&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Deekshith%20G&fontSize=60&fontColor=ffffff&fontAlignY=40&desc=Cybersecurity%20%7C%20Ethical%20Hacking%20%7C%20Pentesting&descAlignY=60&descSize=18&animation=fadeIn"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=00FF00&center=true&vCenter=true&width=750&lines=root%40deekshith:~%24+whoami;cybersecurity+enthusiast;ethical+hacker+in+progress;breaking+systems+%3E+securing+them;pentester+mindset+loading...)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&lines=whoami;Cybersecurity+Enthusiast;Ethical+Hacker+%7C+Pentesting;Breaking+Systems+%3E+Securing+Them)](https://git.io/typing-svg)
 
 <br/>
 
-![Status](https://img.shields.io/badge/Status-Actively%20Learning%20Cybersecurity-00ff00?style=for-the-badge&labelColor=000000)
-![Focus](https://img.shields.io/badge/Focus-Penetration%20Testing-003300?style=for-the-badge&labelColor=000000)
-![Location](https://img.shields.io/badge/Location-Bangalore-001a00?style=for-the-badge&labelColor=000000)
+![Role](https://img.shields.io/badge/Role-Cybersecurity%20Enthusiast-7c3aed?style=for-the-badge&labelColor=0f0c29)
+![Focus](https://img.shields.io/badge/Focus-Penetration%20Testing-4c1d95?style=for-the-badge&labelColor=0f0c29)
+![Location](https://img.shields.io/badge/📍-Bangalore%2C%20India-302b63?style=for-the-badge&labelColor=0f0c29)
 
 </div>
 
@@ -17,39 +17,45 @@
 # 🧠 WHOAMI
 
 ```bash
-Name        : Deekshith G
-Role        : Cybersecurity Learner / Future Pentester
-Education   : B.E. Information Science (CGPA: 8.88)
-Location    : Bangalore, India
+> whoami
+
+Deekshith G
+Cybersecurity Enthusiast | Future Penetration Tester
+
+> system_info
+
+B.E Information Science (CGPA: 8.88)
+Location: Bangalore, India
 ```
 
-🔐 Focused purely on **Cybersecurity, Ethical Hacking & Offensive Security**  
-💻 I explore systems by breaking them and learning how to secure them  
-
-> "If you know how it breaks, you know how to protect it."
+I focus purely on **Cybersecurity, Ethical Hacking & Offensive Security**.  
+My approach is simple: **understand how systems break → secure them better**.
 
 ---
 
-# ⚔️ CYBER ARSENAL
+# ⚔️ TOOLKIT
 
 <div align="center">
 
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00ff00)
-![C](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=00ff00)
-![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=00ff00)
+### 🧑‍💻 Languages
+![Python](https://img.shields.io/badge/Python-0f0c29?style=for-the-badge&logo=python&logoColor=a78bfa)
+![C](https://img.shields.io/badge/C-0f0c29?style=for-the-badge&logo=c&logoColor=a78bfa)
+![Java](https://img.shields.io/badge/Java-0f0c29?style=for-the-badge&logo=openjdk&logoColor=a78bfa)
 
-### 🧪 Security Environment
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-000000?style=for-the-badge&logo=kalilinux&logoColor=00ff00)
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=00ff00)
+### 🛠️ Security Tools
+![Wireshark](https://img.shields.io/badge/Wireshark-0f0c29?style=for-the-badge&logo=wireshark&logoColor=60a5fa)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-0f0c29?style=for-the-badge&logo=burpsuite&logoColor=f97316)
+![Metasploit](https://img.shields.io/badge/Metasploit-0f0c29?style=for-the-badge&logo=metasploit&logoColor=9333ea)
+![SQLMap](https://img.shields.io/badge/SQLMap-0f0c29?style=for-the-badge&logo=databricks&logoColor=22c55e)
+
+### 🌐 Networking & Systems
+![Networking](https://img.shields.io/badge/Networking-0f0c29?style=for-the-badge&logo=cisco&logoColor=60a5fa)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-0f0c29?style=for-the-badge&logo=kalilinux&logoColor=60a5fa)
+![Linux](https://img.shields.io/badge/Linux-0f0c29?style=for-the-badge&logo=linux&logoColor=a78bfa)
 
 ### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=00ff00)
-![Oracle](https://img.shields.io/badge/Oracle-000000?style=for-the-badge&logo=oracle&logoColor=00ff00)
-
-### ⚙️ Tools
-![Git](https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=00ff00)
-![VS Code](https://img.shields.io/badge/VS%20Code-000000?style=for-the-badge&logo=visualstudiocode&logoColor=00ff00)
+![MySQL](https://img.shields.io/badge/MySQL-0f0c29?style=for-the-badge&logo=mysql&logoColor=60a5fa)
+![Oracle](https://img.shields.io/badge/Oracle-0f0c29?style=for-the-badge&logo=oracle&logoColor=f43f5e)
 
 </div>
 
@@ -57,19 +63,24 @@ Location    : Bangalore, India
 
 # 🛡️ CYBERSECURITY FOCUS
 
-🔍 Currently exploring:
+```bash
+> current_focus
 
-- Penetration Testing  
-- Vulnerability Assessment  
-- Web Application Security  
-- Network Security  
-- Kali Linux Tools  
-- Reconnaissance Techniques  
+- Penetration Testing
+- Vulnerability Assessment
+- Web Application Security
+- Network Analysis
+- Exploitation Techniques
+```
 
-⚡ Learning approach:
-- Hands-on practice in real environments  
-- Experimenting with tools and attack scenarios  
-- Building security-focused projects  
+```bash
+> tools_practice
+
+- Wireshark (packet analysis)
+- Burp Suite (web testing)
+- Metasploit (exploitation)
+- SQLMap (SQL injection)
+```
 
 ---
 
@@ -77,38 +88,36 @@ Location    : Bangalore, India
 
 ## 🔐 NFC-Based Secure Fee Management System
 ```bash
-Type        : Secure System Prototype
-Tech        : Python + MySQL
-Focus       : Authentication & Transaction Security
+stack   : Python + MySQL
+type    : Secure System Prototype
+focus   : Authentication + Data Security
 ```
 
-- Designed a secure fee tracking system  
-- Simulated NFC-based student authentication  
-- Implemented receipt generation and transaction logging  
-- Role-based access (Admin / Student)
+- Designed secure student fee system  
+- Implemented role-based access  
+- Built transaction logging & receipt system  
 
 ---
 
 ## 📡 AI-Based Stock Trend Analyzer
 ```bash
-Type        : Automation & Prediction System
-Model       : LSTM (Keras)
+model   : LSTM (Keras)
+type    : Automation + Prediction
 ```
 
-- Built time-series prediction system  
-- Integrated live financial data APIs  
-- Implemented data preprocessing using MinMaxScaler  
-- Generated trend insights for decision support  
+- Time-series forecasting  
+- Data preprocessing & scaling  
+- Trend analysis system  
 
 ---
 
-# 📊 SYSTEM STATUS
+# 📊 GITHUB STATS
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=deekshithg04&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=00ff00&icon_color=00ff00"/>
+<img src="https://github-readme-stats.vercel.app/api?username=deekshithg04&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshithg04&theme=dark&hide_border=true&background=000000&ring=00ff00&fire=00ff00&currStreakLabel=00ff00"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshithg04&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -117,10 +126,10 @@ Model       : LSTM (Keras)
 # 🎯 MISSION
 
 ```bash
-[+] Become a Professional Penetration Tester
+[+] Become a Penetration Tester
 [+] Master Ethical Hacking
 [+] Build Secure Systems
-[+] Work in Real-World Cybersecurity Domains
+[+] Work on Real-World Security Problems
 ```
 
 ---
@@ -129,9 +138,9 @@ Model       : LSTM (Keras)
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00ff00)](https://github.com/deekshithg04)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00ff00)](https://linkedin.com/in/deekshith-g-a17660329)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00ff00)](mailto:deekshith953519@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0f0c29?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/deekshithg04)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f0c29?style=for-the-badge&logo=linkedin&logoColor=60a5fa)](https://linkedin.com/in/deekshith-g-a17660329)
+[![Email](https://img.shields.io/badge/Email-0f0c29?style=for-the-badge&logo=gmail&logoColor=f43f5e)](mailto:deekshith953519@gmail.com)
 
 </div>
 
@@ -139,6 +148,6 @@ Model       : LSTM (Keras)
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a00,100:00ff00&height=160&section=footer&text=root%40deekshith:~%24+access_granted&fontSize=24&fontColor=00ff00&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=footer&animation=fadeIn"/>
 
 </div>
