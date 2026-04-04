@@ -1,141 +1,83 @@
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=900&lines=root%40deekshith:~%24+whoami;Deekshith+G+-+Cybersecurity+Enthusiast;root%40deekshith:~%24+ls+skills;penetration+testing+web+security+networking;root%40deekshith:~%24+run+tools;burpsuite+wireshark+metasploit+sqlmap;root%40deekshith:~%24+status;learning+never+stops..." />
+
+</div>
+
+---
+
 ```bash
 ┌──(root㉿deekshith)-[~]
 └─$ whoami
-
 Deekshith G
+
+┌──(root㉿deekshith)-[~]
+└─$ role
 Cybersecurity Enthusiast | Future Penetration Tester
-```
 
-```bash
 ┌──(root㉿deekshith)-[~]
-└─$ uname -a
-
-B.E Information Science Engineering
-CGPA: 8.88
-Location: Bangalore, India
-```
-
-```bash
-┌──(root㉿deekshith)-[~]
-└─$ cat mindset.txt
-
-I explore systems by breaking them and understanding how to secure them.
-Focused purely on Cybersecurity, Ethical Hacking, and Offensive Security.
+└─$ system
+B.E Information Science | CGPA: 8.88 | Bangalore
 ```
 
 ---
 
 ```bash
-┌──(root㉿deekshith)-[~]
-└─$ ls tools/
+┌──(root㉿deekshith)-[~/tools]
+└─$ ls
 
-Wireshark
-Burp Suite
-Metasploit
-SQLMap
-Nmap
-Kali Linux
-Linux
+burpsuite   wireshark   metasploit   sqlmap   nmap   kali-linux
 ```
 
 ---
 
 ```bash
-┌──(root㉿deekshith)-[~]
-└─$ cat skills.txt
-
-Languages:
-- Python
-- C
-- Java
-
-Databases:
-- MySQL
-- Oracle
-
-Core Areas:
-- Networking
-- Web Security
-- Vulnerability Assessment
-- Penetration Testing
-```
-
----
-
-```bash
-┌──(root㉿deekshith)-[~]
-└─$ cat current_focus.txt
+┌──(root㉿deekshith)-[~/skills]
+└─$ cat core.txt
 
 - Penetration Testing
 - Web Application Security
 - Network Analysis
+- Vulnerability Assessment
 - Exploitation Techniques
-- Reconnaissance
 ```
 
 ---
 
 ```bash
-┌──(root㉿deekshith)-[~]
-└─$ ls projects/
+┌──(root㉿deekshith)-[~/projects]
+└─$ tree
 
-nfc_fee_management_system/
-ai_stock_trend_analyzer/
-```
-
-```bash
-┌──(root㉿deekshith)-[~]
-└─$ cat projects/nfc_fee_management_system/README.txt
-
-Stack: Python + MySQL
-Type: Secure System Prototype
-
-- NFC-based authentication concept
-- Secure fee tracking
-- Role-based access (Admin / Student)
-- Transaction logging and receipt system
-```
-
-```bash
-┌──(root㉿deekshith)-[~]
-└─$ cat projects/ai_stock_trend_analyzer/README.txt
-
-Model: LSTM (Keras)
-Type: Automation + Prediction
-
-- Time-series forecasting
-- Data preprocessing using MinMaxScaler
-- Trend analysis based on financial data
+.
+├── nfc_fee_management_system
+└── ai_stock_trend_analyzer
 ```
 
 ---
 
 ```bash
-┌──(root㉿deekshith)-[~]
-└─$ cat mission.txt
+┌──(root㉿deekshith)-[~/mission]
+└─$ cat goals.txt
 
 [+] Become a Penetration Tester
 [+] Master Ethical Hacking
-[+] Build Secure Systems
-[+] Work on Real-World Security Problems
+[+] Work on Real-World Security Systems
 ```
 
 ---
 
-```bash
-┌──(root㉿deekshith)-[~]
-└─$ contact --show
+<div align="center">
 
-GitHub   : https://github.com/deekshithg04
-LinkedIn : https://linkedin.com/in/deekshith-g-a17660329
-Email    : deekshith953519@gmail.com
-```
+<img src="https://github-readme-stats.vercel.app/api?username=deekshithg04&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshithg04&theme=dark&hide_border=true&background=0d1117"/>
+
+</div>
 
 ---
 
-```bash
-┌──(root㉿deekshith)-[~]
-└─$ echo "Hack the system. Secure the future."
+<div align="center">
 
-Hack the system. Secure the future.
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=root%40deekshith:~%24+echo+%22Hack+the+system%22;root%40deekshith:~%24+echo+%22Secure+the+future%22" />
+
+</div>
