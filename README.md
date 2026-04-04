@@ -132,7 +132,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0f172a,100:000000&height=120&section=footer"/>
+<img width="100%" src=<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffcc,25:22c55e,50:0f766e,75:1e293b,100:020617&height=140&section=footer&animation=fadeIn"/>
 
 **⚡ "Hack the system. Secure the future." ⚡**
 
