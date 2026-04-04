@@ -1,51 +1,159 @@
-l<div align="center">
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ██████╗ ███████╗███████╗██╗  ██╗███████╗██╗  ██╗██╗████████╗██╗  ██╗     ║
+║   ██╔══██╗██╔════╝██╔════╝██║ ██╔╝██╔════╝██║  ██║██║╚══██╔══╝██║  ██║     ║
+║   ██║  ██║█████╗  █████╗  █████╔╝ ███████╗███████║██║   ██║   ███████║     ║
+║   ██║  ██║██╔══╝  ██╔══╝  ██╔═██╗ ╚════██║██╔══██║██║   ██║   ██╔══██║     ║
+║   ██████╔╝███████╗███████╗██║  ██╗███████║██║  ██║██║   ██║   ██║  ██║     ║
+║   ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝     ║
+║                                                                              ║
+║                      [ CYBERSECURITY RESEARCHER ]                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2000&pause=500&color=58A6FF&center=true&vCenter=true&width=1000&height=120&lines=root%40deekshith:~%24+boot;initializing+terminal...;loading+identity...;access+granted" />
+<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=1000&height=120&lines=DEEKSHITH+G;CYBERSECURITY+%7C+PENTESTING;OFFENSIVE+SECURITY+MINDSET" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2500&pause=800&color=38BDF8&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+whoami;Cybersecurity+Enthusiast;Future+Penetration+Tester;Bangalore,+India" />
+```bash
+root@deekshith:~$ whoami
+```
 
 </div>
+
+```
+> Initializing profile...
+> Loading modules: [######################] 100%
+> Status: ONLINE
+```
+
+---
+
+```
+┌─[deekshith@kali]─[~]
+└──╼ $ cat about.txt
+```
+
+```
+╭─────────────────────────────────────────────────────────╮
+│  Name     : Deekshith G                                  │
+│  Role     : Cybersecurity Enthusiast & Backend Dev       │
+│  Location : Bangalore, Karnataka 🇮🇳                     │
+│  School   : Vivekananda Institute of Technology          │
+│  CGPA     : 8.88 / 10                                    │
+│  Status   : [ ACTIVELY HUNTING ] 🔴                      │
+╰─────────────────────────────────────────────────────────╯
+```
+
+---
+
+```
+┌─[deekshith@kali]─[~]
+└──╼ $ ./skills --list --verbose
+```
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║                  >> OFFENSIVE TOOLKIT <<                  ║
+╠═══════════════════════════════════════════════════════════╣
+║  [+] Wireshark       ████████████░░  Network Analysis     ║
+║  [+] Nmap            ████████████░░  Port Scanning        ║
+║  [+] SQLmap          ██████████░░░░  SQL Injection        ║
+║  [+] Burp Suite      ██████████░░░░  Web App Pentesting   ║
+║  [+] Hydra/Brute     █████████░░░░░  Password Cracking    ║
+║  [+] Kali Linux      ████████████░░  Primary OS           ║
+╚═══════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════════════════════════════════════╗
+║                  >> DEV STACK <<                          ║
+╠═══════════════════════════════════════════════════════════╣
+║  [+] Python          ████████████░░  Primary Language     ║
+║  [+] MySQL / Oracle  ██████████░░░░  Databases            ║
+║  [+] Java / C        ████████░░░░░░  Systems              ║
+║  [+] Git / GitHub    ████████████░░  Version Control      ║
+╚═══════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════════════════════════════════════╗
+║                  >> PLATFORMS <<                          ║
+╠═══════════════════════════════════════════════════════════╣
+║  [+] TryHackMe       ██████████░░░░  CTF / Labs           ║
+║  [+] CIADO           ████████░░░░░░  Cloud Security       ║
+╚═══════════════════════════════════════════════════════════╝
+```
+
+---
+
+```
+┌─[deekshith@kali]─[~]
+└──╼ $ ls -la ~/projects/
+```
+
+```
+total 2 active deployments
+
+drwxr-xr-x  [NFC-FEE-SYSTEM]     Jan 2025 – Apr 2025
+drwxr-xr-x  [AI-STOCK-ANALYZER]  Dec 2024 – Jan 2025
+```
+
+### 💳 `NFC Student Fee Management System`
+```
+> DESCRIPTION : NFC-simulated secure fee tracking via Python + MySQL
+> FEATURES    : Admin panel, student portal, PDF receipt generation
+> STACK       : Python, MySQL, CLI
+> REPO        : github.com/deekshithg04
+```
+
+### 📈 `AI-Based Stock Trend Analyzer`
+```
+> DESCRIPTION : LSTM neural net predicting stock trends via Yahoo Finance
+> FEATURES    : MinMaxScaler normalization, time-series forecasting
+> STACK       : Python, Keras, Yahoo Finance API
+> ACCURACY    : [██████████░] ~92% trend direction
+```
+
+---
+
+```
+┌─[deekshith@kali]─[~]
+└──╼ $ cat /etc/os-release | grep targets
+```
+
+```
+TARGETS="Web App Security | Network Pentesting | Secure Backend Dev | AI + Security"
+MISSION="Break things ethically. Build things securely."
+```
+
+---
+
+```
+┌─[deekshith@kali]─[~]
+└──╼ $ ./contact --all
+```
+
+```
+╭──────────────────────────────────────────────────────────╮
+│  📧  deekshith953519@gmail.com                           │
+│  🐙  github.com/deekshithg04                             │
+│  💼  linkedin.com/in/deekshith-g-a17660329               │
+│  📞  +91-6304651226                                      │
+╰──────────────────────────────────────────────────────────╯
+```
 
 ---
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+cat+intro.txt;I+analyze+systems+by+breaking+them.;I+focus+on+real-world+security+problems.;Tools,+exploitation,+and+defense.;Learning+never+stops..." />
+```
+> "The quieter you become, the more you are able to hear." — Kali Linux Motto
+```
 
-</div>
+```
+[ SYSTEM ONLINE ] — [ THREATS MONITORED ] — [ LEARNING NEVER STOPS ]
+```
 
----
 
-<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=FACC15&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+load+toolkit;wireshark+burpsuite+metasploit+sqlmap;nmap+kali+linux+networking;packet+analysis+%7C+web+testing+%7C+exploitation" />
+![](https://komarev.com/ghpvc/?username=deekshithg04&color=00ff41&style=flat-square&label=PROFILE+VIEWS)
 
-</div>
 
----
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=F87171&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+mission;become+penetration+tester;master+ethical+hacking;build+secure+systems" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=deekshithg04&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=deekshithg04&theme=dark&hide_border=true&background=0d1117"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=1000&lines=root%40deekshith:~%24+connect;github.com%2Fdeekshithg04;linkedin.com%2Fin%2Fdeekshith-g-a17660329;deekshith953519%40gmail.com" />
 
 </div>
