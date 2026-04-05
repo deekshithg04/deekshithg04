@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>deekshith@kali:~$</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+  :root {
+    --green: #00ff41;
+    --dark-green: #00aa2a;
+    --dim-green: #003d0f;
+    --bg: #0c0c0c;
+    --red: #ff5555;
+    --amber: #ffb86c;
+    --cyan: #8be9fd;
+    --purple: #bd93f9;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 30px 16px;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+  /* CRT scanlines */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg, transparent, transparent 2px,
+      rgba(0,0,0,0.07) 2px, rgba(0,0,0,0.07) 4px
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* Matrix rain */
+  #matrix {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+    opacity: 0.18;
+  }
+
+  .m-col {
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    color: #00ff41;
+    font-family: 'Share Tech Mono', monospace;
+    animation: mfall linear infinite;
+    white-space: pre;
+    line-height: 1.4;
+  }
+
+  @keyframes mfall {
+    from { transform: translateY(-100%); }
+    to   { transform: translateY(110vh); }
+  }
+
+  /* SINGLE TERMINAL */
+  .terminal {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 820px;
+    background: var(--bg);
+    border: 1px solid #1e3a1e;
+    border-radius: 8px;
+    box-shadow:
+      0 0 0 1px #0d1f0d,
+      0 0 40px rgba(0,255,65,0.07),
+      0 0 120px rgba(0,255,65,0.03);
+    overflow: hidden;
+  }
+
+  /* Title bar */
+  .titlebar {
+    background: #161616;
+    border-bottom: 1px solid #1e3a1e;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dot { width: 13px; height: 13px; border-radius: 50%; flex-shrink: 0; }
+  .dot-r { background: #ff5f57; }
+  .dot-y { background: #febc2e; }
+  .dot-g { background: #28c840; }
+
+  .title-text {
+    margin-left: 10px;
+    color: #3a3a3a;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  /* Terminal body */
+  .body {
+    padding: 20px 22px 28px;
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: var(--green);
+    min-height: auto;
+    height: auto;
+  }
+
+  /* Colors */
+  .g  { color: var(--green); }
+  .dg { color: var(--dark-green); }
+  .c  { color: var(--cyan); }
+  .a  { color: var(--amber); }
+  .r  { color: var(--red); }
+  .p  { color: var(--purple); }
+  .w  { color: #f8f8f2; }
+  .dim{ color: #444; }
+
+  /* Cursor */
+  .cursor {
+    display: inline-block;
+    width: 8px; height: 14px;
+    background: var(--green);
+    animation: blink 1s step-end infinite;
+    vertical-align: middle;
+    margin-left: 1px;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+  /* ASCII glow */
+  .ascii {
+    font-size: 10.5px;
+    line-height: 1.15;
+    white-space: pre;
+    color: var(--green);
+    text-shadow: 0 0 12px rgba(0,255,65,0.55);
+    animation: gpulse 3s ease-in-out infinite;
+    margin-bottom: 6px;
+  }
+  @keyframes gpulse {
+    0%,100% { text-shadow: 0 0 10px rgba(0,255,65,0.4); }
+    50%      { text-shadow: 0 0 24px rgba(0,255,65,0.9), 0 0 48px rgba(0,255,65,0.3); }
+  }
+
+  /* Skill bar */
+  .skill-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0;
+  }
+  .sn { width: 155px; color: #ccc; font-size: 13px; flex-shrink:0; }
+  .track {
+    width: 130px; height: 9px;
+    background: #0d2e0d;
+    overflow: hidden;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .fill {
+    height: 100%;
+    background: var(--green);
+    width: 0;
+    box-shadow: 0 0 6px var(--green);
+    transition: width 1.4s cubic-bezier(0.22,1,0.36,1);
+  }
+  .sl { color: #444; font-size: 12px; }
+
+  /* Project card */
+  .proj {
+    border-left: 2px solid var(--green);
+    padding: 6px 12px;
+    margin: 5px 0;
+    background: rgba(0,255,65,0.02);
+  }
+
+  /* Status badge */
+  .badge {
+    display: inline-block;
+    border: 1px solid var(--green);
+    padding: 1px 7px;
+    font-size: 11px;
+    animation: badgeglow 2s ease-in-out infinite;
+  }
+  @keyframes badgeglow {
+    0%,100% { box-shadow: 0 0 4px var(--green); }
+    50%      { box-shadow: 0 0 14px var(--green); }
+  }
+
+  /* Glitch on ascii */
+  @keyframes glitch {
+    0%  { text-shadow: 2px 0 var(--red), -2px 0 var(--cyan); transform: skewX(0deg); }
+    10% { text-shadow: -2px 0 var(--red), 2px 0 var(--cyan); transform: skewX(-1deg); }
+    20% { text-shadow: 2px 0 var(--red), -2px 0 var(--cyan); transform: skewX(0deg); }
+    100%{ text-shadow: 0 0 24px rgba(0,255,65,0.9); transform: skewX(0deg); }
+  }
+  .ascii.glitching { animation: glitch 0.15s steps(1) forwards; }
+</style>
+</head>
+<body>
+
+<div id="matrix"></div>
+
+<div class="terminal">
+  <div class="titlebar">
+    <div class="dot dot-r"></div>
+    <div class="dot dot-y"></div>
+    <div class="dot dot-g"></div>
+    <span class="title-text">deekshith@kali: ~</span>
+  </div>
+  <div class="body" id="out"></div>
+</div>
+
+<script>
+// ── Matrix rain ──────────────────────────────────────────────────────────────
+const CHARS = '01アイウエカキクケサシスタチツ<>{}[]/\\|█▓░';
+const rain = document.getElementById('matrix');
+for (let i = 0; i < Math.floor(window.innerWidth / 22); i += 2) {
+  const c = document.createElement('div');
+  c.className = 'm-col';
+  c.style.left = (i * 22) + 'px';
+  c.style.animationDuration = (7 + Math.random() * 10) + 's';
+  c.style.animationDelay   = (-Math.random() * 12) + 's';
+  let t = '';
+  for (let j = 0; j < 28; j++) t += CHARS[Math.floor(Math.random()*CHARS.length)] + '\n';
+  c.textContent = t;
+  rain.appendChild(c);
+}
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+const out = document.getElementById('out');
+
+function el(tag, cls, html) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function append(html) {
+  const d = document.createElement('div');
+  d.innerHTML = html;
+  out.appendChild(d);
+}
+
+function br() { out.appendChild(document.createElement('br')); }
+
+// Typewriter: types text into a <span> inside a pre-existing div, returns Promise
+function type(div, html, speed = 28) {
+  return new Promise(resolve => {
+    // We'll strip HTML tags to get raw text, then re-inject styled spans after
+    // For simplicity: inject colored spans instantly, but reveal char-by-char via clip
+    div.innerHTML = html;
+    div.style.overflow = 'hidden';
+    div.style.maxWidth = '0px';
+    div.style.whiteSpace = 'nowrap';
+    div.style.transition = `max-width ${(html.replace(/<[^>]*>/g,'').length * speed)}ms steps(${html.replace(/<[^>]*>/g,'').length}, end)`;
+    requestAnimationFrame(() => {
+      div.style.maxWidth = '900px';
+      setTimeout(resolve, html.replace(/<[^>]*>/g,'').length * speed + 40);
+    });
+  });
+}
+
+// Simpler: just fade-in line by line with delay
+function addLine(html, delay) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const d = document.createElement('div');
+      d.innerHTML = html;
+      d.style.opacity = '0';
+      out.appendChild(d);
+      requestAnimationFrame(() => {
+        d.style.transition = 'opacity 0.18s';
+        d.style.opacity = '1';
+      });
+      resolve(d);
+    }, delay);
+  });
+}
+
+// Type a prompt line char by char
+function typeLine(html, baseDelay, speed = 22) {
+  const raw = html.replace(/<[^>]*>/g, '');
+  return new Promise(resolve => {
+    setTimeout(() => {
+      const d = document.createElement('div');
+      out.appendChild(d);
+
+      // show styled content instantly but mask with char-by-char reveal using a wrapper
+      const wrapper = document.createElement('span');
+      wrapper.innerHTML = html;
+      wrapper.style.display = 'inline';
+      d.appendChild(wrapper);
+
+      // overlay: blank characters typed over it
+      // Actually: build text char by char in a plain span first
+      d.innerHTML = '';
+      let i = 0;
+      const chars = raw.split('');
+      const interval = setInterval(() => {
+        if (i >= chars.length) {
+          clearInterval(interval);
+          // Replace plain text with styled HTML version
+          d.innerHTML = html;
+          resolve(d);
+          return;
+        }
+        d.textContent = raw.slice(0, i + 1);
+        i++;
+      }, speed);
+    }, baseDelay);
+  });
+}
+
+// ── Skill bar helper ─────────────────────────────────────────────────────────
+function skillRow(name, pct, label) {
+  const d = document.createElement('div');
+  d.className = 'skill-row';
+  d.innerHTML = `
+    <span class="sn">${name}</span>
+    <div class="track"><div class="fill" data-pct="${pct}"></div></div>
+    <span class="sl">${label}</span>
+  `;
+  out.appendChild(d);
+  setTimeout(() => {
+    d.querySelector('.fill').style.width = pct + '%';
+  }, 200);
+}
+
+// ── MAIN SEQUENCE ────────────────────────────────────────────────────────────
+async function run() {
+  let t = 3500; // running timer
+
+  // ASCII header
+  await addLine(`<pre class="ascii" id="ascii">
+██████╗ ███████╗███████╗██╗  ██╗███████╗██╗  ██╗██╗████████╗██╗  ██╗     ██████╗ 
+██╔══██╗██╔════╝██╔════╝██║ ██╔╝██╔════╝██║  ██║██║╚══██╔══╝██║  ██║    ██╔════╝ 
+██║  ██║█████╗  █████╗  █████╔╝ ███████╗███████║██║   ██║   ███████║    ██║  ███╗
+██║  ██║██╔══╝  ██╔══╝  ██╔═██╗ ╚════██║██╔══██║██║   ██║   ██╔══██║    ██║   ██║
+██████╔╝███████╗███████╗██║  ██╗███████║██║  ██║██║   ██║   ██║  ██║    ╚██████╔╝
+╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝   ╚═╝  ╚═╝     ╚═════╝ </pre>
+<div style="color:#444;font-size:12px;letter-spacing:3px;margin-bottom:10px">[ CYBERSECURITY RESEARCHER ]</div>`, 0);
+
+  // Boot lines
+  const boots = [
+    { html: `<span class="dim">> Initializing Kali Linux kernel...</span>`,         d: 400 },
+    { html: `<span class="dim">> Loading offensive modules...</span>`,               d: 900 },
+    { html: `<span class="dim">> Mounting encrypted volumes...</span>`,              d: 1300 },
+    { html: `<span class="dg">> [OK] Wireshark · Nmap · SQLmap · Burp Suite</span>`,d: 1700 },
+    { html: `<span class="dg">> [OK] TryHackMe labs synced</span>`,                  d: 2050 },
+    { html: `<span class="a" >&gt; [!!] 3 open ports detected on localhost</span>`,  d: 2350 },
+    { html: `<span class="g" >> Status: <span style="color:#fff">ONLINE</span> — Welcome back, Deekshith.</span>`, d: 2750 },
+  ];
+  boots.forEach(b => addLine(b.html, b.d));
+  t = 1000;
+
+  // ── whoami ────────────────────────────────────────────────────────────────
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('whoami'), t); t += 0;
+
+  const aboutLines = [
+    `<span class="dim">╭──────────────────────────────────────────────────────────╮</span>`,
+    `<span class="dim">│</span>  <span class="g">[+]</span> Name     : <span class="w">Deekshith G</span>                                <span class="dim">│</span>`,
+    `<span class="dim">│</span>  <span class="g">[+]</span> Role     : <span class="c">Cybersecurity Enthusiast & Backend Dev</span>    <span class="dim">│</span>`,
+    `<span class="dim">│</span>  <span class="g">[+]</span> Location : <span class="w">Bangalore, Karnataka 🇮🇳</span>                   <span class="dim">│</span>`,
+    `<span class="dim">│</span>  <span class="g">[+]</span> Education   : <span class="w">B.E</span>        <span class="dim">│</span>`,
+    `<span class="dim">│</span>  <span class="g">[+]</span> Status   : <span class="badge">● ACTIVELY HUNTING</span>  <span class="dim">│</span>`,
+    `<span class="dim">╰──────────────────────────────────────────────────────────╯</span>`,
+  ];
+  for (const l of aboutLines) { await addLine(l, t); t += 0; }
+
+  // ── skills ────────────────────────────────────────────────────────────────
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('./skills --list --verbose'), t); t += 0;
+
+  await addLine(`<span class="dim">╔══════════════════════════════════════════════════════════╗</span>`, t); t+=0;
+  await addLine(`<span class="dim">║</span>  <span class="r">>> OFFENSIVE TOOLKIT <<</span>                                  <span class="dim">║</span>`, t); t+=0;
+  await addLine(`<span class="dim">╠══════════════════════════════════════════════════════════╣</span>`, t); t+=0;
+
+  const offensive = [
+    { name:'[+] Wireshark    ', pct:85, label:'Network Analysis' },
+    { name:'[+] Nmap         ', pct:88, label:'Port Scanning' },
+    { name:'[+] SQLmap       ', pct:75, label:'SQL Injection' },
+    { name:'[+] Burp Suite   ', pct:78, label:'Web App Pentest' },
+    { name:'[+] Hydra/Brute  ', pct:70, label:'Password Cracking' },
+    { name:'[+] Kali Linux   ', pct:90, label:'Primary OS' },
+  ];
+  for (const s of offensive) {
+    setTimeout(() => skillRow(`<span class="dim">║</span> <span class="g">${s.name}</span>`, s.pct, `${s.label} <span class="dim">║</span>`), t);
+    t += 0;
+  }
+  await addLine(`<span class="dim">╚══════════════════════════════════════════════════════════╝</span>`, t); t+=0;
+
+  await addLine(`<span class="dim">╔══════════════════════════════════════════════════════════╗</span>`, t); t+=0;
+  await addLine(`<span class="dim">║</span>  <span class="a">>> DEV STACK <<</span>                                          <span class="dim">║</span>`, t); t+=0;
+  await addLine(`<span class="dim">╠══════════════════════════════════════════════════════════╣</span>`, t); t+=0;
+
+  const dev = [
+    { name:'[+] Python       ', pct:90, label:'Primary Language' },
+    { name:'[+] MySQL/Oracle ', pct:80, label:'Databases' },
+    { name:'[+] Java / C     ', pct:65, label:'Systems' },
+    { name:'[+] Git / GitHub ', pct:85, label:'Version Control' },
+  ];
+  for (const s of dev) {
+    setTimeout(() => skillRow(`<span class="dim">║</span> <span class="a">${s.name}</span>`, s.pct, `${s.label} <span class="dim">║</span>`), t);
+    t += 0;
+  }
+  await addLine(`<span class="dim">╚══════════════════════════════════════════════════════════╝</span>`, t); t+=0;
+
+  await addLine(`<span class="dim">╔══════════════════════════════════════════════════════════╗</span>`, t); t+=0;
+  await addLine(`<span class="dim">║</span>  <span class="c">>> PLATFORMS <<</span>                                          <span class="dim">║</span>`, t); t+=0;
+  await addLine(`<span class="dim">╠══════════════════════════════════════════════════════════╣</span>`, t); t+=0;
+
+  const platforms = [
+    { name:'[+] TryHackMe    ', pct:75, label:'CTF / Labs' },
+    { name:'[+] CIADO        ', pct:60, label:'Cloud Security' },
+  ];
+  for (const s of platforms) {
+    setTimeout(() => skillRow(`<span class="dim">║</span> <span class="c">${s.name}</span>`, s.pct, `${s.label} <span class="dim">║</span>`), t);
+    t += 0;
+  }
+  await addLine(`<span class="dim">╚══════════════════════════════════════════════════════════╝</span>`, t); t+=0;
+
+  // ── projects ──────────────────────────────────────────────────────────────
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('ls -la ~/projects/'), t); t += 0;
+  await addLine(`<span class="dim">total 2 active deployments</span>`, t); t += 0;
+  await addLine('<br>', t); t += 0;
+
+  await addLine(`<span class="dim">drwxr-xr-x</span>  <span class="c">[NFC-FEE-SYSTEM]</span>     <span class="dim">Jan 2025 – Apr 2025</span>`, t); t+=0;
+  await addLine(`<span class="dim">drwxr-xr-x</span>  <span class="c">[AI-STOCK-ANALYZER]</span>  <span class="dim">Dec 2024 – Jan 2025</span>`, t); t+=0;
+
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('cat NFC-FEE-SYSTEM/README.md'), t); t += 0;
+
+  const p1 = [
+    `<span class="g">> DESCRIPTION</span> : <span class="w">NFC-simulated secure fee tracking</span>`,
+    `<span class="g">> STACK      </span> : <span class="a">Python · MySQL · CLI · PDF</span>`,
+    `<span class="g">> FEATURES   </span> : <span class="dim">Admin panel · Student portal · PDF receipts</span>`,
+    `<span class="g">> REPO       </span> : <span class="c">github.com/deekshithg04</span>`,
+    `<span class="g">> STATUS     </span> : <span class="badge">● COMPLETE</span>`,
+  ];
+  for (const l of p1) { await addLine(l, t); t += 0; }
+
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('cat AI-STOCK-ANALYZER/README.md'), t); t += 0;
+
+  const p2 = [
+    `<span class="g">> DESCRIPTION</span> : <span class="w">LSTM neural net predicting stock trends</span>`,
+    `<span class="g">> STACK      </span> : <span class="a">Python · Keras · Yahoo Finance API</span>`,
+    `<span class="g">> FEATURES   </span> : <span class="dim">MinMaxScaler · Time-series · Forecasting</span>`,
+    `<span class="g">> ACCURACY   </span> : <span class="c">~92% trend direction</span>`,
+    `<span class="g">> STATUS     </span> : <span class="badge">● COMPLETE</span>`,
+  ];
+  for (const l of p2) { await addLine(l, t); t += 0; }
+
+  // ── mission ───────────────────────────────────────────────────────────────
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('cat /etc/mission.conf'), t); t += 0;
+
+  const missionLines = [
+    `TARGETS=<span class="a">"Web App Security | Network Pentesting | Secure Backend Dev | AI + Security"</span>`,
+    `MISSION=<span class="g">"Break things ethically. Build things securely."</span>`,
+    `QUOTE=<span class="c">"The quieter you become, the more you are able to hear."</span>`,
+  ];
+  for (const l of missionLines) { await addLine(l, t); t += 0; }
+
+  // ── contact ───────────────────────────────────────────────────────────────
+  await addLine('<br>', t); t += 0;
+  await addLine(prompt('./contact --all'), t); t += 0;
+
+  const contacts = [
+    `<span class="dim">╭──────────────────────────────────────────────────────────╮</span>`,
+    `<span class="dim">│</span>  <span class="c">📧</span>  <span class="w">deekshith953519@gmail.com</span>                          <span class="dim">│</span>`,
+    `<span class="dim">│</span>  <span class="c">🐙</span>  <span class="w">github.com/deekshithg04</span>                            <span class="dim">│</span>`,
+    `<span class="dim">│</span>  <span class="c">💼</span>  <span class="w">linkedin.com/in/deekshith-g-a17660329</span>              <span class="dim">│</span>`,
+    
+    `<span class="dim">╰──────────────────────────────────────────────────────────╯</span>`,
+  ];
+  for (const l of contacts) { await addLine(l, t); t += 0; }
+
+  // ── footer prompt ─────────────────────────────────────────────────────────
+  await addLine('<br>', t); t += 0;
+  setTimeout(() => {
+    const d = document.createElement('div');
+    d.innerHTML = `${promptHTML()} <span class="cursor"></span>`;
+    out.appendChild(d);
+  }, t);
+
+  // ── Glitch ascii periodically ─────────────────────────────────────────────
+  setTimeout(() => {
+    const ascii = document.getElementById('ascii');
+    if (!ascii) return;
+    const orig = ascii.textContent;
+    const glitchChars = '▓░▒█╬╪╫╗╔╝╚';
+    setInterval(() => {
+      if (Math.random() > 0.82) {
+        ascii.classList.add('glitching');
+        const pos = Math.floor(Math.random() * orig.length);
+        const arr = orig.split('');
+        arr[pos] = glitchChars[Math.floor(Math.random() * glitchChars.length)];
+        ascii.textContent = arr.join('');
+        setTimeout(() => {
+          ascii.textContent = orig;
+          ascii.classList.remove('glitching');
+        }, 90);
+      }
+    }, 350);
+  }, 1500);
+}
+
+// ── Prompt HTML helper ───────────────────────────────────────────────────────
+function promptHTML() {
+  return `<span class="dg">┌─[<span class="c">deekshith</span><span class="dim">@</span><span class="g">kali</span>]─[<span class="dim">~</span>]</span><br><span class="dg">└──╼</span> <span class="g">$</span>`;
+}
+
+function prompt(cmd) {
+  return `${promptHTML()} <span class="w">${cmd}</span>`;
+}
+
+run();
+</script>
+</body>
+</html>
