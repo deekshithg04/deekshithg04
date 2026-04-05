@@ -27,7 +27,7 @@
 
 👋 Hi, I'm **Deekshith G** — a Cybersecurity enthusiast and backend developer based in Bangalore, India.
 
-🎓 Currently pursuing **B.E. in Information Science & Engineering** at Vivekananda Institute of Technology · **CGPA: 8.88/10**
+🎓 Currently pursuing my undergraduate degree in engineering.
 
 🔐 I'm passionate about breaking things ethically and building systems that are secure by design. From scanning networks with Nmap to hunting SQL vulnerabilities with SQLmap, I love the thrill of finding what others miss.
 
@@ -108,16 +108,6 @@
 <img src="https://github-readme-stats.vercel.app/api?username=deekshithg04&show_icons=true&theme=dark&hide_border=true&bg_color=0a0a0a&title_color=00ff41&icon_color=00ff41&text_color=aaaaaa" />
 
 </div>
-
----
-
-## 🎓 Education
-
-| 🏫 Institution | 📚 Qualification | 📅 Year | 🏆 Score |
-|---|---|---|---|
-| Vivekananda Institute of Technology | B.E. in Information Science & Engineering | 2023 – Present | CGPA: 8.88/10 |
-| Blooms PU College | Pre-University Course (PUC) | 2021 – 2022 | 78.08% |
-| Samyama Shikshana Samsthe | SSLC (10th Grade) | 2019 – 2020 | 78.08% |
 
 ---
 
