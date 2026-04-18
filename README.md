@@ -124,7 +124,7 @@
 [![Email](https://img.shields.io/badge/Email-deekshith953519%40gmail.com-00ff41?style=for-the-badge&logo=gmail&logoColor=ff4444&labelColor=0a0a0a)](mailto:deekshith953519@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Deekshith%20G-00ff41?style=for-the-badge&logo=linkedin&logoColor=8be9fd&labelColor=0a0a0a)](https://linkedin.com/in/deekshith-g-a17660329)
 [![GitHub](https://img.shields.io/badge/GitHub-deekshithg04-00ff41?style=for-the-badge&logo=github&logoColor=e2e8f0&labelColor=0a0a0a)](https://github.com/deekshithg04)
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Visit%20Now-00ff41?style=for-the-badge&labelColor=0a0a0a)](https://deekshithg04.github.io/deekshithg04/)
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Visit%20Now-00ff41?style=for-the-badge&labelColor=0a0a0a)](https://deekshith-g.netlify.app)
 
 </div>
 
