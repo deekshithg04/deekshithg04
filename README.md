@@ -17,7 +17,7 @@
 
 <!-- PORTFOLIO LINK -->
 ### 🌐 [**>> VIEW PORTFOLIO <<**](https://deekshithg04.github.io/deekshithg04/)
-[![Portfolio](https://img.shields.io/badge/🔗%20Portfolio-deekshithg04.github.io-00ff41?style=for-the-badge&labelColor=0a0a0a&color=00ff41)](https://deekshithg04.github.io/deekshithg04/)
+[![Portfolio](https://img.shields.io/badge/🔗%20Portfolio-deekshithg04.github.io-00ff41?style=for-the-badge&labelColor=0a0a0a&color=00ff41)](https://deekshith-g.netlify.app)
 
 </div>
 
